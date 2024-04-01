@@ -144,7 +144,7 @@ background-color: #e2e7e6;
    
 .box{
     width: 23%;
-    height: 400px;
+    height: 390px;
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px; 
@@ -163,6 +163,7 @@ background-color: #e2e7e6;
 .boxcontant a{
     color: #007185;
     font-weight: 500;
+    margin-left: 0px;
 }
 footer{
     margin-top: 15px;
@@ -226,22 +227,41 @@ footer{
     padding-top: 7px;
        
     }
-/* .row{
+
+.BOXFour{
+    width: 23%;
+    height: 425px;
+    background-color: white;
+    margin-top: 15px; 
+    } 
+
+.inner{
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
     justify-content: space-evenly;
-    align-items: flex-end;
-}
-.image{
-    width: 40%;
-    height: 115px;
-    background-size: cover;
-    margin: 10px; 
-}
-.box_images a{
-    font-size: 15px;
-    color: #007185
-}
-span{
+    align-items: center;
     position: relative;
-    right: 0px;
-} */
+    top: 40px;
+    
+    }
+    .innerbox{
+    width: 150px;
+    height: 120px;
+    background-size: cover;
+    }
+    .BOXFour a{
+       position: relative;
+       top: 45px;
+       margin-left: 15px;
+       color: #007185;
+    }
+    .BOXFour p{
+        position: relative;
+        top: 20px;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 15px;
+        
+    }
